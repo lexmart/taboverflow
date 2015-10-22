@@ -1,0 +1,46 @@
+<html>
+
+<head>
+<style type="text/css">
+	body {
+		font-family: Candara, Calibri, Segoe, 'Segoe UI', Optima, Arial, sans-serif;
+	}
+	#header {
+		font-size: 36px;
+	}
+	#version {
+		color: rgb(119, 119, 119);
+	}
+	#main-container {
+		padding-left: 50px;
+		padding-top: 20px;
+	}
+	#numTabs{
+		width:30px;
+	}
+	.font-size-reg {
+		font-size:18px;
+	}
+</style>
+
+</head>
+
+<body>
+<span id="header">Tab Alert <span id="version" class="font-size-reg">version </span></span>
+
+<div id="main-container" bgcolor="F5F5DC">
+
+
+<span class="font-size-reg">If you want to disable this extension, go to <a href="chrome://extensions">chrome://extensions</a>.</span><br /><br />
+<span class="font-size-reg">You currently allow up to <b id="numTabsAllowed"></b> tabs</span><br /><br />
+<span class="font-size-reg">What is the maximum number of tabs you allow? <input id="numTabs" type="text"></input></span><br /><br />
+<button id="saveButton">Save</button>
+
+</div>
+
+</body>
+
+
+<script src="options.js"></script>
+
+</html>

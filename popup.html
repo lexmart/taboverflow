@@ -1,0 +1,43 @@
+<html>
+
+<head>
+<style type="text/css">
+	body {
+		font-family: Candara, Calibri, Segoe, 'Segoe UI', Optima, Arial, sans-serif;
+		width:300px;
+	}
+	#header {
+		font-size: 30px;
+	}
+	#version {
+		color: rgb(119, 119, 119);
+	}
+	#main-container {
+		padding-top: 20px;
+	}
+	#numTabs{
+		width:30px;
+	}
+	.font-size-reg {
+		font-size:18px;
+	}
+</style>
+
+</head>
+
+<body bgcolor="F5F5DC">
+<span id="header">Tab Overflow <span id="version" class="font-size-reg">version </span></span>
+
+<div id="main-container">
+
+<span class="font-size-reg">Num tabs allowed? <input id="numTabs" type="text"></input></span>
+<button id="saveButton">Save</button><br /><br />
+<span class="font-size-reg">You currently allow up to <b id="numTabsAllowed"></b> tabs</span><br /><br />
+</div>
+
+</body>
+
+
+<script src="popup.js"></script>
+
+</html>
